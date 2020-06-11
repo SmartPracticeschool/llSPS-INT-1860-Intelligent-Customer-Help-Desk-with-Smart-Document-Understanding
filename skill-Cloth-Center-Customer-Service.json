@@ -1,0 +1,1707 @@
+{
+  "intents": [
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "hey"
+        },
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good afternoon"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "hello"
+        }
+      ],
+      "description": "when someone greets"
+    },
+    {
+      "intent": "torn_cloth",
+      "examples": [
+        {
+          "text": "i want to change the dress"
+        },
+        {
+          "text": "my cloth is torned"
+        },
+        {
+          "text": "my dress is teared"
+        },
+        {
+          "text": "torn"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "thank you for your help"
+        },
+        {
+          "text": "thanku"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "thank a lot"
+        },
+        {
+          "text": "thanks"
+        }
+      ],
+      "description": "thanking"
+    },
+    {
+      "intent": "size_cloth",
+      "examples": [
+        {
+          "text": "my dress is too long"
+        },
+        {
+          "text": "product is very thick"
+        },
+        {
+          "text": "cloth is very thin"
+        },
+        {
+          "text": "my cloth is big"
+        },
+        {
+          "text": "my dress is short"
+        },
+        {
+          "text": "size"
+        }
+      ],
+      "description": "size of a dress"
+    },
+    {
+      "intent": "material_cloth",
+      "examples": [
+        {
+          "text": "fabric of a cloth"
+        },
+        {
+          "text": "i am looking for silk"
+        },
+        {
+          "text": "material is not good"
+        }
+      ],
+      "description": "type or material of a cloth"
+    },
+    {
+      "intent": "product_information",
+      "examples": [
+        {
+          "text": "Termination"
+        },
+        {
+          "text": "security"
+        },
+        {
+          "text": "design of e commerce side"
+        },
+        {
+          "text": "modules of clothing store organiser?"
+        },
+        {
+          "text": "how to login"
+        },
+        {
+          "text": "which type fabrics?"
+        },
+        {
+          "text": "tell me some fabric names"
+        },
+        {
+          "text": "admin"
+        },
+        {
+          "text": "success page"
+        },
+        {
+          "text": "cart notification?"
+        },
+        {
+          "text": "fabric"
+        },
+        {
+          "text": "Dimity Fabric"
+        },
+        {
+          "text": "show me Alteration Services"
+        },
+        {
+          "text": "alternative service?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "return_policy",
+      "examples": [
+        {
+          "text": "what your return policy"
+        },
+        {
+          "text": "please show me your return policy"
+        },
+        {
+          "text": "whats your refund policy?"
+        },
+        {
+          "text": "please tell me return or refund policy"
+        },
+        {
+          "text": "refund"
+        }
+      ],
+      "description": "return or refund policy"
+    },
+    {
+      "intent": "items",
+      "examples": [
+        {
+          "text": "can i get saree here?"
+        },
+        {
+          "text": "can i get shirt here"
+        },
+        {
+          "text": "i want jeans"
+        },
+        {
+          "text": "i want frock"
+        }
+      ],
+      "description": "different types of items getting in the shop"
+    },
+    {
+      "intent": "Transaction",
+      "examples": [
+        {
+          "text": "borrowing the dress"
+        },
+        {
+          "text": "let me know the modes of transaction"
+        },
+        {
+          "text": "cash on delivery"
+        },
+        {
+          "text": "can you provide us online payment"
+        },
+        {
+          "text": "transaction modes"
+        }
+      ],
+      "description": "modes of transaction"
+    },
+    {
+      "intent": "enquiry",
+      "examples": [
+        {
+          "text": "i need some help , could you?"
+        },
+        {
+          "text": "problem"
+        },
+        {
+          "text": "i have a issue"
+        },
+        {
+          "text": "i wanted to know how it works?"
+        },
+        {
+          "text": "returns"
+        },
+        {
+          "text": "please solve my problem"
+        },
+        {
+          "text": "show me your shop center logo"
+        },
+        {
+          "text": "what are the price ranges here?"
+        },
+        {
+          "text": "what is the time of shop center"
+        },
+        {
+          "text": "what is the policy?"
+        },
+        {
+          "text": "what kind of cloth can i get in the shop?"
+        },
+        {
+          "text": "Can i get online delivery from your side?"
+        },
+        {
+          "text": "refunds"
+        },
+        {
+          "text": "price of ladies dress material"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Store_Location",
+      "examples": [
+        {
+          "text": "what is the address"
+        },
+        {
+          "text": "where are you"
+        },
+        {
+          "text": "what's your location"
+        },
+        {
+          "text": "where are you?"
+        },
+        {
+          "text": "where is this?"
+        },
+        {
+          "text": "give me directions"
+        },
+        {
+          "text": "which cross streets are you on"
+        },
+        {
+          "text": "how can i get to you from grand central"
+        },
+        {
+          "text": "Where is your office?"
+        },
+        {
+          "text": "please suggest route from times square"
+        },
+        {
+          "text": "What is the nearest branch?"
+        },
+        {
+          "text": "What is the store near my zip code?"
+        },
+        {
+          "text": "What is the closest store to my address?"
+        },
+        {
+          "text": "Looking for a location"
+        },
+        {
+          "text": "I want to know about a store"
+        },
+        {
+          "text": "I need help with find a store"
+        },
+        {
+          "text": "I'd like to go to a store"
+        },
+        {
+          "text": "Go to your company"
+        },
+        {
+          "text": "how do i get to your business"
+        },
+        {
+          "text": "Where are you located?"
+        },
+        {
+          "text": "Where is?"
+        },
+        {
+          "text": "Find store"
+        },
+        {
+          "text": "how do i get to your place"
+        },
+        {
+          "text": "where are you located"
+        },
+        {
+          "text": "can you give me directions"
+        },
+        {
+          "text": "location please"
+        },
+        {
+          "text": "how do i find you"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "size_product",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "small",
+          "synonyms": [
+            "tiny",
+            "smaller",
+            "little",
+            "few",
+            "short",
+            "smallish",
+            "shorter"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "long",
+          "synonyms": [
+            "longer",
+            "lengthy",
+            "much",
+            "far",
+            "extended",
+            "too",
+            "lengthier",
+            "very",
+            "lot",
+            "more",
+            "extend"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "size",
+          "synonyms": [
+            "sizes",
+            "dimensions",
+            "length",
+            "height",
+            "width",
+            "waist",
+            "format",
+            "scale",
+            "volume",
+            "number",
+            "widths",
+            "formats",
+            "sized",
+            "volumes",
+            "thickness",
+            "numbers",
+            "dimension",
+            "depth",
+            "scales",
+            "diameter"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "greet",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "hey",
+          "synonyms": [
+            "hi",
+            "hello",
+            "hiya",
+            "howdy",
+            "oh",
+            "whoa",
+            "yeah",
+            "okay",
+            "yep"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good afternoon",
+          "synonyms": [
+            "ga",
+            "afternoon",
+            "midday",
+            "lunchtime"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good evening",
+          "synonyms": [
+            "ge",
+            "gud eve",
+            "evening",
+            "evenings"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "good morning",
+          "synonyms": [
+            "morning",
+            "gm",
+            "gud mrng",
+            "mornin",
+            "mornings"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "thanks",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "thank you",
+          "synonyms": [
+            "thanks",
+            "tq",
+            "thanq",
+            "ty",
+            "ok",
+            "thank",
+            "okay",
+            "yeah",
+            "thanx",
+            "alright",
+            "thx",
+            "yes",
+            "okz",
+            "fine",
+            "yup",
+            "yep",
+            "why not",
+            "no worries"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "transaction_modes",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cash on delivery",
+          "synonyms": [
+            "COD",
+            "Cash",
+            "payment",
+            "offline",
+            "offline payment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "online payment",
+          "synonyms": [
+            "gpay",
+            "google pay",
+            "phone pay",
+            "BHIM ",
+            "paytm",
+            "paypal",
+            "samsung pay",
+            "debit card pay",
+            "credit card pay",
+            "online pay"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transaction fail",
+          "synonyms": [
+            "failed",
+            "unsuccessful",
+            "failure",
+            "abortive",
+            "unsuccessfully",
+            "stuck",
+            "stop",
+            "waited",
+            "halfly done",
+            "money issue",
+            "trans",
+            "money",
+            "money related"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "borrow",
+          "synonyms": [
+            "borrowing",
+            "lend",
+            "loan",
+            "owe",
+            "mortgage"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "material_product",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "material",
+          "synonyms": [
+            "materials",
+            "cloth",
+            "polyester",
+            "cotton",
+            "garment",
+            "flannel",
+            "breathable",
+            "chenille",
+            "embroidery",
+            "item"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "silk",
+          "synonyms": [
+            "satin",
+            "cotton",
+            "chanderi",
+            "golden",
+            "net",
+            "designer"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "products",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "saree",
+          "synonyms": [
+            "frock",
+            "chudidar",
+            "jeans top",
+            "top",
+            "jeans",
+            "shirt",
+            "t shirt",
+            "night dress",
+            "denims",
+            "lehanga",
+            "under garments ",
+            "stole",
+            "napkin",
+            "towel",
+            "chunari",
+            "patiyala",
+            "punjabi",
+            "anarkali",
+            "sweater",
+            "hoodie",
+            "cap",
+            "pants",
+            "nauwari saree",
+            "sahavari saree",
+            "lingerie",
+            "bra",
+            "baniyan ",
+            "kurta"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "information",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "logo",
+          "synonyms": [
+            "logos",
+            "logotype",
+            "emblem",
+            "embroidered",
+            "wordmark",
+            "emblazoned",
+            "branding",
+            "slogan",
+            "graphic",
+            "embroidery"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "time",
+          "synonyms": [
+            "day",
+            "when",
+            "moment",
+            "times",
+            "while",
+            "thing",
+            "way",
+            "now",
+            "once",
+            "days",
+            "again",
+            "things",
+            "if",
+            "so",
+            "moments",
+            "though",
+            "something",
+            "whenever",
+            "after"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "online delivery",
+          "synonyms": [
+            "web",
+            "free",
+            "cyber",
+            "line",
+            "electronic",
+            "live",
+            "websites",
+            "onscreen",
+            "ota",
+            "inline"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "price",
+          "synonyms": [
+            "amount",
+            "cost",
+            "value",
+            "rate",
+            "excess",
+            "rates",
+            "costs",
+            "expense",
+            "pricing",
+            "values"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "issue",
+          "synonyms": [
+            "issues",
+            "problem",
+            "question",
+            "matters",
+            "topic",
+            "thing",
+            "case",
+            "concern",
+            "problematic",
+            "subject",
+            "help"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "works",
+          "synonyms": [
+            "work",
+            "project",
+            "runs",
+            "books",
+            "construction",
+            "walk",
+            "enterprise",
+            "done",
+            "it",
+            "but",
+            "run"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "location",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "location",
+          "synonyms": [
+            "locations",
+            "place",
+            "venue",
+            "locality",
+            "spot",
+            "venues",
+            "places",
+            "address",
+            "destinations",
+            "areas",
+            "offices",
+            "localities",
+            "located",
+            "landmark",
+            "situated",
+            "districts",
+            "cities"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "contact",
+          "synonyms": [
+            "contacted",
+            "call",
+            "please",
+            "email",
+            "information",
+            "contacto",
+            "hesitate",
+            "enquiries",
+            "liaise",
+            "visit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "direction",
+          "synonyms": [
+            "directions",
+            "path",
+            "route",
+            "road",
+            "pathway",
+            "roads",
+            "street",
+            "highways",
+            "roadways",
+            "streets",
+            "lanes",
+            "maps",
+            "motorways",
+            "interstates",
+            "footpaths",
+            "ln",
+            "routeing"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "torn_product",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "torn",
+          "synonyms": [
+            "ripped",
+            "tore",
+            "tear",
+            "broken",
+            "dismembered",
+            "riven",
+            "divided",
+            "buzzed",
+            "tattered",
+            "frayed",
+            "broke",
+            "mutilated",
+            "shattered",
+            "smashed",
+            "tears",
+            "fractured",
+            "rip",
+            "damaged",
+            "split",
+            "fraying"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "change",
+          "synonyms": [
+            "changes",
+            "shift",
+            "alter",
+            "modify",
+            "difference",
+            "climate",
+            "adapt",
+            "changements",
+            "wandel",
+            "amended",
+            "replace"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "policy",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "return policy",
+          "synonyms": [
+            "refund policy",
+            "policy",
+            "terms",
+            "return steps",
+            "return methods",
+            "return ways",
+            "return types",
+            "refund methods "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "refund",
+          "synonyms": [
+            "refunds",
+            "payment"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.cloud.ibm.com/api/v1/web/si05202000315%40smartinternz.com_dev/default/Fetch%20data.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Your question is submitted,We will contact you soon. Thank you"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1591785582684",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1591785605642",
+      "previous_sibling": "response_8_1591785602787"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<?$webhook_result_1.passages[1].passage_text?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591785582684",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_8_1591785602787"
+    },
+    {
+      "type": "standard",
+      "title": "small size",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "By mistake you took small size , keep that same as it is and replace with your perfect size when you visit us next time before that just check return policy here."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591523650271",
+      "conditions": "@size_product:small",
+      "dialog_node": "node_7_1591595838219",
+      "previous_sibling": "node_4_1591526701871"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have you facing issue  with long size or small size ? Please type yours : long or small"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591523650271",
+      "conditions": "@size_product:size",
+      "dialog_node": "response_4_1591526306855",
+      "previous_sibling": "node_7_1591595838219"
+    },
+    {
+      "type": "standard",
+      "title": "long size",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So sorry for your inconvenience .keep the  item as it is and replace with another one when you visit the shop next time before that just check return policy here."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591523650271",
+      "conditions": "@size_product:long",
+      "dialog_node": "node_4_1591526701871"
+    },
+    {
+      "type": "standard",
+      "title": "m submit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you , your information is submitted . If it is available we will contact you soon."
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1591525769423",
+      "conditions": "@material_product:silk",
+      "dialog_node": "node_5_1591525893654"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Right now we couldn't  deliver online items but we will do it soon. We will notify you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1591439366401",
+      "conditions": "@information:(online delivery)",
+      "dialog_node": "response_1_1591447267167",
+      "previous_sibling": "response_5_1591439834239"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "you will get all kinds of price range here . Starting from 50 RS to more than 10 K. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1591439366401",
+      "conditions": "@information:price",
+      "dialog_node": "response_9_1591447502155",
+      "previous_sibling": "response_10_1591447430114"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Our shop's logo:",
+            "source": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsYi0H1ONhjLGE3wadoX-pWU1HdWpBJ1dIqveCaAxOQTwycCq2&usqp=CAU",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_5_1591439366401",
+      "conditions": "@information:logo",
+      "dialog_node": "response_10_1591447430114",
+      "previous_sibling": "response_1_1591447267167"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what kind of issue are you facing?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1591439366401",
+      "conditions": "@information:issue",
+      "dialog_node": "response_1_1591520723456",
+      "previous_sibling": "response_9_1591447502155"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Shop opens at 9'O clock in the morning , and closes at 9'O clock in the night . You can come anytime. Thank you  "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1591439366401",
+      "conditions": "@information:time",
+      "dialog_node": "response_5_1591439834239"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please check Return Policy here."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1591600429543",
+      "conditions": "@policy:refund",
+      "dialog_node": "response_9_1591610715484",
+      "previous_sibling": "response_7_1591610701452"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1 .  VISIT THE STORE :( Wrap your products in their original packaging and bring them over with your return slip and invoice)"
+              },
+              {
+                "text": "2. HAND OVER YOUR RETURN :( An authorized staff member will take your package and hand you an acknowledgement receipt.)"
+              },
+              {
+                "text": "3. RECEIVE YOUR REFUND :( You’ll receive a cash refund or a refund to your card, bank account. Or, you can change the item as well.)"
+              },
+              {
+                "text": "THANK YOU . HAPPY SHOPPING"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1591600429543",
+      "conditions": "@policy:(return policy)",
+      "dialog_node": "response_7_1591610701452"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what type of transaction issue? "
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1591605344503",
+      "conditions": "@transaction_modes:(transaction fail)",
+      "dialog_node": "response_4_1591613139655",
+      "previous_sibling": "response_1_1591611692988"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes ,we accept that too."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591605344503",
+      "conditions": "@transaction_modes:(online payment)",
+      "dialog_node": "response_9_1591613431215",
+      "previous_sibling": "response_4_1591613139655"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, we accept that."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591605344503",
+      "conditions": "@transaction_modes:(cash on delivery)",
+      "dialog_node": "response_1_1591611692988",
+      "previous_sibling": "response_6_1591605738824"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes you can borrow the product  but installation of payments must be on time."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591605344503",
+      "conditions": "@transaction_modes:borrow",
+      "dialog_node": "response_6_1591605738824",
+      "previous_sibling": "node_5_1591613607533"
+    },
+    {
+      "type": "standard",
+      "title": "failure",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If your transaction fails,,stuck or any other problem you're facing then we are with you. Just don't panic and,"
+              },
+              {
+                "text": "Please visit our shop and we will solve you issue . Is it fine?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1591605344503",
+      "conditions": "@transaction_modes:(transaction fail)",
+      "dialog_node": "node_5_1591613607533"
+    },
+    {
+      "type": "standard",
+      "title": "change",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes. you can change the dress. just check the return policy here by typing Return Policy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591517383172",
+      "conditions": "@torn_product:change",
+      "dialog_node": "node_9_1591524435755"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There is no need of call. you can visit us anytime at our shop place in Vadakshivale. Thank you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591603704240",
+      "conditions": "@location:contact",
+      "dialog_node": "response_9_1591604276441",
+      "previous_sibling": "response_8_1591604207720"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's our location:  Vadakshivale , Tal -Karveer , Dist - Kolhapur\nnext village to Espurli."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591603704240",
+      "conditions": "@location:direction",
+      "dialog_node": "response_9_1591604589809",
+      "previous_sibling": "response_9_1591604276441"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our location is: Vadakshivale tal :karveer, Kolhapur ,Maharatshtra. : "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591603704240",
+      "conditions": "@location:location",
+      "dialog_node": "response_8_1591604207720"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello,Good Afternoon. Have A Pleasant Day."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591437495878",
+      "conditions": "@greet:(good afternoon)",
+      "dialog_node": "response_1_1591437829243",
+      "previous_sibling": "response_4_1591437790313"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi , Good Evening.Have A Great Day "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591437495878",
+      "conditions": "@greet:(good evening)",
+      "dialog_node": "response_8_1591437872995",
+      "previous_sibling": "response_1_1591437829243"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey,Good Morning. Have A Good Day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591437495878",
+      "conditions": "@greet:(good morning)",
+      "dialog_node": "response_4_1591437790313",
+      "previous_sibling": "response_10_1591437536949"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "hey,hello"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591437495878",
+      "conditions": "@greet:hey",
+      "dialog_node": "response_10_1591437536949"
+    },
+    {
+      "type": "standard",
+      "title": "products",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Yes, you will get this in our shop."
+              },
+              {
+                "text": " * And if u want to check the prices then we are providing variety of that kind of item and the price depends upon them."
+              },
+              {
+                "text": "* So for that you can visit us anytime"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#items || @products",
+      "dialog_node": "node_1_1591611427663",
+      "previous_sibling": "node_3_1591785582684"
+    },
+    {
+      "type": "standard",
+      "title": "product_torn",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "So sorry for your inconvenience, If you want to change the item or need a refund  please type here as a change the item or refund"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#torn_cloth && @torn_product",
+      "dialog_node": "node_3_1591517383172",
+      "previous_sibling": "node_7_1591523650271"
+    },
+    {
+      "type": "standard",
+      "title": "enquiry",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#enquiry || @information",
+      "dialog_node": "node_5_1591439366401",
+      "previous_sibling": "node_1_1591611427663"
+    },
+    {
+      "type": "standard",
+      "title": "product_size",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#size_cloth || @size_product",
+      "dialog_node": "node_7_1591523650271",
+      "previous_sibling": "node_2_1591525769423"
+    },
+    {
+      "type": "standard",
+      "title": "transaction modes",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Transaction || @transaction_modes",
+      "dialog_node": "node_3_1591605344503",
+      "previous_sibling": "node_5_1591439366401"
+    },
+    {
+      "type": "standard",
+      "title": "Thank you",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome. "
+              },
+              {
+                "text": "My pleasure."
+              },
+              {
+                "text": "Glad to help."
+              },
+              {
+                "text": "No worries."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#thank_you || @thanks",
+      "dialog_node": "node_3_1591596610751",
+      "previous_sibling": "node_4_1591600429543"
+    },
+    {
+      "type": "standard",
+      "title": "location",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Store_Location || @location",
+      "dialog_node": "node_9_1591603704240",
+      "previous_sibling": "node_3_1591605344503"
+    },
+    {
+      "type": "standard",
+      "title": "return policy",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#return_policy || @policy",
+      "dialog_node": "node_4_1591600429543",
+      "previous_sibling": "node_3_1591517383172"
+    },
+    {
+      "type": "standard",
+      "title": "product_material",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can you tell me then what kind of material are you looking?"
+              },
+              {
+                "text": "Your order for  that kind of cloth material is placed.If it is available we'll notify you."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#material_cloth || @material_product",
+      "dialog_node": "node_2_1591525769423",
+      "previous_sibling": "node_9_1591603704240"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1591596610751",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "greeting",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#greetings || @greet",
+      "dialog_node": "node_6_1591437495878",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "ask for products",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#product_information",
+      "dialog_node": "node_3_1591785582684",
+      "previous_sibling": "node_6_1591437495878"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello.  I am Saya ,"
+              },
+              {
+                "text": "And here  to  solve your issues and to give the information about our Cloth Store. "
+              },
+              {
+                "text": "You can ask me whatever  you are looking for."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Cloth Center Customer Service",
+  "language": "en",
+  "description": ""
+}
